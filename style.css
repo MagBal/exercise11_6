@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i,800,800i');
+
+* {
+  box-sizing: border-box;
+}
+body {
+  	margin: 0 auto;
+  	max-width: 1200px;
+  	font-family: 'Open Sans', sans-serif;
+  	text-align: center;
+  	background: #C0C0C0;
+  	
+}
+.board h1 {
+	font-size: 40px;
+}
+.column-container {
+	display: flex;
+	justify-content: center;
+	border: 2px solid green;
+  	margin: 80px;
+}
+.create-column {
+	margin: 0 auto;
+	text-align: center;
+	width: 200px;
+	height: 50px;
+	background-color: #323232;
+	color: #FFF;
+	font-size: 20px;
+	border-radius: 5px;
+	box-shadow: 0 5px 5px #535353;
+}
+.column {
+	border: 5px solid #fdfe00;
+	padding: 10px;
+	max-width: 30%;
+}
+.column h2 {
+	border-bottom: 5px solid #fdfe00;
+	font-size: 30px;
+}
+.column-card-list {
+	list-style-type: none;
+}
+.add-card {
+	width: 120px;
+	height: 40px;
+	background-color: #323232;
+	color: #FFF;
+	font-size: 18px;
+	border-radius: 5px;
+	box-shadow: 5px 5px #535353;
+}
+.btn-delete {
+	width: 30px;
+	height: 30px;
+	background-color: #323232;
+	color: #FFF;
+	font-size: 16px;
+	border-radius: 5px;
+	box-shadow: 0 2px 2px #535353;
+}
+.card {
+	width: 150px;
+	height: 150px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 100px #7C7C7C;
+	background-color: #00ff00;
+
+}
+.card-description {
+	font-size: 20px;
+	font-style: italic;
+	color: #FFF;
+	overflow: hidden;
+}
