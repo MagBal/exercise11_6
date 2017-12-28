@@ -4,7 +4,7 @@
 }
 body {
     margin: 0 auto;
-    max-width: 1800px;
+    max-width: 2000px;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     background: #C0C0C0;
@@ -45,7 +45,7 @@ body {
     border: 5px solid #fdfe00;
     background: #778899;
     padding: 10px;
-    width: 230px;
+    width: 250px;
 }
 .column h2 {
     border-bottom: 5px solid #fdfe00;
@@ -59,8 +59,9 @@ body {
 }
 .add-card {
     float: left;
-    width: 3vw;
-    height: 5vh;
+    width: 80px;
+    height: 55px;
+    padding: 5px;
     background-color: #000;
     color: #FFF;
     font-size: 80%;
@@ -87,8 +88,8 @@ body {
     text-align: center;
 }
 .card {
-    width: 6vw;
-    height: 12vh;
+    width: 150px;
+    height: 150px;
     box-shadow: 10px 10px 5px #535353;
     background-color: #39ff14;
     float: left;
@@ -106,15 +107,14 @@ body {
     padding-top: 25px;
     text-align: center;
 }
-
 li .btn-delete {
     box-shadow: none;
     margin-right: 0;
     float: right;
 }
 .card-placeholder {
-    width: 6vw;
-    height: 12vh;
+    width: 150px;
+    height: 150px;
     border: dotted 1px black;
 }
 @media (max-width: 767px) {
@@ -149,6 +149,7 @@ li .btn-delete {
         float: none;
     }
     .card {
+        display: block;
         width: 150px;
         height: 150px;
         box-shadow: none;
